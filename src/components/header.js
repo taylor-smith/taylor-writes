@@ -51,6 +51,14 @@ const Header = ({ siteTitle }) => (
           >Recommendations</Link>
         </h4>
       </div>
+      <div style={{display:'flex', flex: '1 1 auto',}}>
+          <h4 style={{ margin: 0 }}>
+          <Link
+            to="/blog"
+            style={{color: 'white', textDecoration: 'none'}}
+          >Blog</Link>
+        </h4>
+     </div>
     </div>
   </div>
 )
