@@ -19,7 +19,6 @@ export default function Template({
                 </div>
             </div>
         </Layout>
-
     )
 }
 
